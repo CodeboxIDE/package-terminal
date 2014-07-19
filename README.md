@@ -1,4 +1,3 @@
-package-terminal
-================
+# Terminal
 
-Terminale inside the IDE
+This package contains a terminal for running inside Codebox.
