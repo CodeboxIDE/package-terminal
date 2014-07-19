@@ -7,7 +7,9 @@
         "codebox": ">=1.0.0"
     },
     "dependencies": {
-
+        "q": "1.0.1",
+        "lodash": "2.4.1",
+        "shux": "git+https://github.com/SamyPesse/shux.git#3abe4c6074013791eac0d055c63ed70b3197e7f4"
     },
     "packageDependencies": {
         "tabs": "CodeboxIDE/package-tabs"
