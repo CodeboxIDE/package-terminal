@@ -1,20 +1,20 @@
 define([
-
-], function() {
+    "src/tab",
+    "less!src/stylesheets/main.less"
+], function(TerminalTab) {
     var commands = codebox.require("core/commands");
 
     commands.register({
         id: "terminal.open",
-        title: "Termianl: Open",
+        title: "Terminal: Open",
         run: function(args, context) {
-            /*return codebox.tabs.add(codebox.tabs.HtmlPanel, {
-                className: "component-markdown-preview",
-                content: markdown.render(context.getContent())
+            return codebox.tabs.add(TerminalTab, {
+                cmd: ""
             }, {
-                type: "markdown",
-                title: "Markdown: " + context.model.get("name"),
-                section: "markdown"
-            });*/
+                type: "terminal",
+                title: "Terminal",
+                section: "terminal"
+            });
         }
     });
 });
