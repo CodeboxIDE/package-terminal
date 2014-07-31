@@ -9,6 +9,7 @@ define([
     commands.register({
         id: "terminal.open",
         title: "Terminal: Open",
+        icon: "terminal",
         shortcuts: [
             "alt+t"
         ],
@@ -24,6 +25,7 @@ define([
     commands.register({
         id: "terminal.open.existing",
         title: "Terminal: Open Existing",
+        icon: "versions",
         shortcuts: [
             "alt+shift+t"
         ],
