@@ -2,7 +2,8 @@
     "name": "terminal",
     "version": "1.0.0",
     "description": "Terminal inside the IDE",
-    "main": "src/index",
+    "main": "lib/main.js",
+    "browser": "./src/index.js",
     "engines": {
         "codebox": ">=1.0.0"
     },
@@ -14,6 +15,5 @@
     },
     "packageDependencies": {
         "tabs": "CodeboxIDE/package-tabs"
-    },
-    "node": "lib/main.js"
+    }
 }
