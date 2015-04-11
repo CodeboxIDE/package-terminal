@@ -2,7 +2,7 @@
     "name": "terminal",
     "version": "1.0.0",
     "description": "Terminal inside the IDE",
-    "main": "lib/main.js",
+    "main": "./lib/index.js",
     "browser": "./src/index.js",
     "engines": {
         "codebox": ">=1.0.0"

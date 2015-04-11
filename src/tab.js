@@ -1,5 +1,7 @@
 var Shell = require("./shell");
 var Terminal = require("sh.js/src/index.js");
+var $ = codebox.require("jquery");
+var _ = codebox.require("hr.utils");
 var keyboard = codebox.require("utils/keyboard");
 
 
