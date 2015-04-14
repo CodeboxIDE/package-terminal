@@ -36,7 +36,7 @@ commands.register({
         .then(function(terminal) {
             return commands.run("terminal.open", {
                 shellId: terminal.get("value")
-            })
+            });
         });
     }
 });
