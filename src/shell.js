@@ -3,7 +3,7 @@ var Class = codebox.require("hr.class");
 var hash = codebox.require("utils/hash");
 var Socket = codebox.require("core/socket");
 
-var logging = require("hr.logger")("terminal");
+var logging = codebox.require("hr.logger")("terminal");
 
 var Shell = Class.extend({
     defaults: {},
