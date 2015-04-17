@@ -5,7 +5,7 @@
     "main": "./lib/index.js",
     "browser": "./src/index.js",
     "engines": {
-        "codebox": ">=1.0.0"
+        "codebox": ">=1.0.0-alpha"
     },
     "dependencies": {
         "q": "1.0.1",
